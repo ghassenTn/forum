@@ -20,7 +20,7 @@ for x in range(7):
                 - [Debian 6 Squeeze](https://www.debian.org/News/2011/20110205)
                 - [Debian 5 Lenny](https://www.debian.org/News/2009/20090214)  
                     """)
-        cols = st.columns([1,1,15],gap='small')
+        cols = st.columns(3,gap='small')
         dislike_count = 0
         if 'dislike_count' not in st.session_state:
             st.session_state['dislike_count'] = dislike_count
