@@ -53,7 +53,7 @@ def line_plot():
 
     return fig
 sb = st.sidebar
-st.logo("https://img.icons8.com/?size=100&id=uKPJ5HL65nlH&format=png&color=000000",size='large')
+st.logo("https://avatars.githubusercontent.com/u/124514548?v=4",size='large')
 st.markdown("## Debian Community .")
 st.caption("By @DebianCommunity :material/forum:")
 ### news about new release
