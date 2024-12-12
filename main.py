@@ -148,26 +148,7 @@ with sb:
     sac.rate(label='', value=3.5, align='center',half=True)
     sac.alert(label='ghassenTn ', description=' Welcome  ', banner=True, icon=False, closable=True,size='md',variant='quote')
 
-    sac.cascader(items=[
-    sac.CasItem('home', icon='house'),
-    sac.CasItem('app', icon='app', children=[
-        sac.CasItem('store', icon='bag-check'),
-        sac.CasItem('brand', icon='award', children=[
-            sac.CasItem('github', icon='github'),
-            sac.CasItem('google', icon='google'),
-            sac.CasItem('apple', icon='apple', children=[
-                sac.CasItem('admin', icon='person-circle'),
-                sac.CasItem('guest', icon='person'),
-                sac.CasItem('twitter' * 5, icon='twitter'),
-            ]),
-        ]),
-    ]),
-    sac.CasItem('disabled', icon='send', disabled=True),
-    sac.CasItem('other1'),
-    sac.CasItem('other2')
-], label='label', index=0, multiple=True, search=True, clear=True)
-
-
+    
     
     
 
