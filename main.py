@@ -145,6 +145,7 @@ with sb:
     sac.buttons([
     sac.ButtonsItem(icon='github',label='Github'),
     sac.ButtonsItem(label='wechat', icon='wechat'),
+    sac.ButtonsItem(label='',icon='apple')
 ], label='', align='center')
     sac.rate(label='', value=3.5, align='center',half=True)
     
