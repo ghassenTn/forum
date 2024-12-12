@@ -88,12 +88,53 @@ with cnt_bubels:
     st.markdown("**Bubels chart new release**")
     st.caption("By @DebianCommunity :material/forum:")
     st.pyplot(bubels_plot())
+    with st.expander("Show code"):
+        st.code("""
+def bubels_plot():
+    fig, ax = plt.subplots()
+    ax.scatter([1, 2, 3, 4], [10, 20, 15, 25], s=[100, 200, 150, 250], color=['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728'])
+    ax.set_title('Sample Bubble Chart')
+    ax.set_xlabel('X')
+    ax.set_ylabel('Y')
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['left'].set_color('#dddddd')
+    ax.spines['bottom'].set_color('#dddddd')
+    ax.tick_params(axis='x', colors='#555555')
+    ax.tick_params(axis='y', colors='#555555')
+    ax.yaxis.grid(True, color='#eeeeee')
+    ax.xaxis.grid(False)
+    fig.tight_layout()
+
+    return fig
+""")
 
 cnt_line = st.container(border=True)
 with cnt_line:
     st.markdown("**Line chart new release**")
     st.caption("By @DebianCommunity :material/forum:")
     st.pyplot(line_plot())
+    with st.expander("Show code"):
+        st.code("""
+def line_plot():
+    fig, ax = plt.subplots()
+    ax.plot([1, 2, 3, 4], [10, 20, 15, 25], color='#1f77b4')
+    ax.set_title('Sample Line Chart')
+    ax.set_xlabel('X')
+    ax.set_ylabel('Y')
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['left'].set_color('#dddddd')
+    ax.spines['bottom'].set_color('#dddddd')
+    ax.tick_params(axis='x', colors='#555555')
+    ax.tick_params(axis='y', colors='#555555')
+    ax.yaxis.grid(True, color='#eeeeee')
+    ax.xaxis.grid(False)
+    fig.tight_layout()
+
+    return fig
+
+""")
 
         
         
