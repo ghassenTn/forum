@@ -139,6 +139,9 @@ def line_plot():
 
 with sb:
     st.caption("**ghassenTn** :material/workspace_premium:")
+    sac.divider(label='Social Media', icon='house', align='center', color='gray')
+
+
     sac.chip(
     items=[
         sac.ChipItem(label='github', icon='github'),
