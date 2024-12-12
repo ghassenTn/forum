@@ -157,7 +157,7 @@ with sb:
             sac.MenuItem('wechat', icon='wechat'),
         ]),
     ]),
-], open_all=False,indent=30)
+], open_all=False,indent=12)
     
     
     
