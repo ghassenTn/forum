@@ -4,8 +4,8 @@ cols = st.columns(2)
 st.logo("https://img.icons8.com/?size=100&id=uKPJ5HL65nlH&format=png&color=000000",size='large')
 
 
-a, b = st.columns(2)
-c, d = st.columns(2)
+a, b,j = st.columns(3)
+c, d,r = st.columns(3)
 
 a.metric("Temperature", "30°F", "-9°F", border=True)
 b.metric("Wind", "4 mph", "2 mph", border=True)
