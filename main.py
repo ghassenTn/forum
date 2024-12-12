@@ -142,12 +142,14 @@ with sb:
     sac.divider(label='Social Media', icon='house', align='center', color='gray')
 
 
-    sac.chip(
-    items=[
-        sac.ChipItem(label='github', icon='github'),
-        sac.ChipItem(label='twitter', icon='twitter'),
-    ], label='', index=[0, 2], align='center', radius='md', multiple=True
-)
+    sac.buttons([
+    sac.ButtonsItem(label='button'),
+    sac.ButtonsItem(icon='apple'),
+    sac.ButtonsItem(label='google', icon='google', color='#25C3B0'),
+    sac.ButtonsItem(label='wechat', icon='wechat'),
+    sac.ButtonsItem(label='disabled', disabled=True),
+    sac.ButtonsItem(label='link', icon='share-fill', href='https://ant.design/components/button'),
+], label='label', align='center')
     sac.rate(label='', value=3.5, align='center',half=True)
     
     
