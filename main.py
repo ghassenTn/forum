@@ -1,6 +1,5 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-import mplcursors
 def fake_plot():
     fig, ax = plt.subplots()
     bars = ax.bar(['A', 'B', 'C', 'D'], [10, 20, 15, 25], color=['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728'])
@@ -17,9 +16,6 @@ def fake_plot():
     ax.xaxis.grid(False)
     fig.tight_layout()
 
-    # Add interactive cursor
-    cursor = mplcursors.cursor(bars, hover=True)
-    cursor.connect("add", lambda sel: sel.annotation.set_text(f'Value: {sel.target[1]}'))
 
     return fig
 
