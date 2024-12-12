@@ -148,6 +148,9 @@ with sb:
     sac.ButtonsItem(label='',icon='apple')
 ], label='', align='center')
     sac.rate(label='', value=3.5, align='center',half=True)
+    sac.alert(label='ghassenTn ', description='welcome to our profile ghassenTn im ML developer', banner=True, icon=True, closable=True)
+
+
     
     
 
