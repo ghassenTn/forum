@@ -1,5 +1,6 @@
 import streamlit as st
 import matplotlib.pyplot as plt
+import streamlit_antd_components as sac
 def fake_plot():
     fig, ax = plt.subplots()
     ax.bar(['A', 'B', 'C', 'D'], [10, 20, 15, 25], color=['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728'])
@@ -139,10 +140,8 @@ def line_plot():
 with sb:
     st.caption("**ghassenTn** :material/workspace_premium:")
     st.caption("Ml developer")
-
-        
-        
-            
+    sac.rate(label='label', value=2.0, align='center')
+    
     
 
 
