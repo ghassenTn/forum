@@ -140,7 +140,7 @@ def line_plot():
 with sb:
     st.caption("**ghassenTn** :material/workspace_premium:")
     st.caption("Ml developer")
-    sac.rate(label='label', value=2.0, align='center')
+    sac.rate(label='', value=3.5, align='center')
     
     
 
