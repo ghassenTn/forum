@@ -53,7 +53,7 @@ def line_plot():
 
     return fig
 sb = st.sidebar
-
+st.logo("https://e7.pngegg.com/pngimages/259/1017/png-clipart-computer-icons-business-bar-chart-icon-design-business-blue-angle.png")
 st.markdown("## Debian Community .")
 st.caption("By @DebianCommunity :material/forum:")
 ### news about new release
