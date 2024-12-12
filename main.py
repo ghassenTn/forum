@@ -137,7 +137,7 @@ def line_plot():
 """)
 
 with sb:
-    st.caption("ghassenTn *:material/workspace_premium:*")
+    st.caption("ghassenTn ***:material/workspace_premium:***")
     st.caption("Ml developer")
 
         
