@@ -139,7 +139,6 @@ def line_plot():
 
 with sb:
     st.caption("**ghassenTn** :material/workspace_premium:")
-    st.caption("Ml developer")
     sac.chip(
     items=[
         sac.ChipItem(label='github', icon='github'),
