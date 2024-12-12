@@ -52,7 +52,7 @@ def line_plot():
     fig.tight_layout()
 
     return fig
-sb = st.sidebar()
+sb = st.sidebar
 
 st.markdown("## Debian Community .")
 st.caption("By @DebianCommunity :material/forum:")
