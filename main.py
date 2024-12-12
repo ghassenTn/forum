@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 def fake_plot():
     fig, ax = plt.subplots()
-    bars = ax.bar(['A', 'B', 'C', 'D'], [10, 20, 15, 25], color=['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728'])
+    ax.bar(['A', 'B', 'C', 'D'], [10, 20, 15, 25], color=['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728'])
     ax.set_title('Sample Bar Chart')
     ax.set_xlabel('Categories')
     ax.set_ylabel('Values')
@@ -15,8 +15,6 @@ def fake_plot():
     ax.yaxis.grid(True, color='#eeeeee')
     ax.xaxis.grid(False)
     fig.tight_layout()
-
-
     return fig
 
 def bubels_plot():
