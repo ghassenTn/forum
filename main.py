@@ -142,7 +142,6 @@ with sb:
     st.caption("Ml developer")
     sac.chip(
     items=[
-        sac.ChipItem(icon='google'),
         sac.ChipItem(label='github', icon='github'),
         sac.ChipItem(label='twitter', icon='twitter'),
     ], label='label', index=[0, 2], align='center', radius='md', multiple=True
