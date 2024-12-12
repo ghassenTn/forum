@@ -12,3 +12,5 @@ b.metric("Wind", "4 mph", "2 mph", border=True)
 
 c.metric("Humidity", "77%", "5%", border=True)
 d.metric("Pressure", "30.34 inHg", "-2 inHg", border=True)
+
+go_home = st.button("Sign up",on_click=lambda:st.switch_page("pages/pages/Register"))
