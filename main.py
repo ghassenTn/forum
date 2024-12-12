@@ -138,15 +138,15 @@ def line_plot():
 """)
 
 with sb:
-    st.caption("**ghassenTn** :material/workspace_premium:")
-    sac.divider(label='Social Media', icon='wechat', align='center', color='gray')
-    sac.buttons([
-    sac.ButtonsItem(icon='github',label='Github'),
-    sac.ButtonsItem(label='wechat', icon='wechat'),
-    sac.ButtonsItem(label='',icon='apple')
-], label='', align='center')
-    sac.rate(label='', value=3.5, align='center',half=True)
-    sac.alert(label='ghassenTn ', description=' Welcome  ', banner=True, icon=False, closable=True,size='md',variant='quote')
+#     st.caption("**ghassenTn** :material/workspace_premium:")
+#     sac.divider(label='Social Media', icon='wechat', align='center', color='gray')
+#     sac.buttons([
+#     sac.ButtonsItem(icon='github',label='Github'),
+#     sac.ButtonsItem(label='wechat', icon='wechat'),
+#     sac.ButtonsItem(label='',icon='apple')
+# ], label='', align='center')
+#     sac.rate(label='', value=3.5, align='center',half=True)
+#     sac.alert(label='ghassenTn ', description=' Welcome  ', banner=True, icon=False, closable=True,size='md',variant='quote')
     sac.menu([
     sac.MenuItem('home', icon='house-fill', tag=[sac.Tag('Tag1', color='green'), sac.Tag('Tag2', 'red')]),
     sac.MenuItem('products', icon='box-fill', children=[
