@@ -13,7 +13,7 @@ for x in range(7):
     with cnt_news:
         st.markdown("**News about new release**")
         st.caption("By @DebianCommunity :material/forum:")
-        fake_plot()
+        st.pyplot(fake_plot())
         
         
             
