@@ -144,7 +144,7 @@ with sb:
     items=[
         sac.ChipItem(label='github', icon='github'),
         sac.ChipItem(label='twitter', icon='twitter'),
-    ], label='Sociale Media', index=[0, 2], align='center', radius='md', multiple=True
+    ], label='', index=[0, 2], align='center', radius='md', multiple=True
 )
     sac.rate(label='', value=3.5, align='center',half=True)
     
