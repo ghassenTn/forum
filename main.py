@@ -139,7 +139,7 @@ def line_plot():
 
 with sb:
     st.caption("**ghassenTn** :material/workspace_premium:")
-    sac.divider(label='Social Media', icon='house', align='center', color='gray')
+    sac.divider(label='Social Media', icon='wechat', align='center', color='gray')
 
 
     sac.buttons([
