@@ -53,7 +53,7 @@ def line_plot():
 
     return fig
 sb = st.sidebar
-st.logo("https://avatars.githubusercontent.com/u/124514548?v=4",size='large')
+st.logo("https://avatars.githubusercontent.com/u/124514548?v=4",size='large',link='https://github.com/ghassenTn')
 st.markdown("## Debian Community .")
 st.caption("By @DebianCommunity :material/forum:")
 ### news about new release
@@ -135,6 +135,10 @@ def line_plot():
     return fig
 
 """)
+
+with sb:
+    st.caption("ghassenTn")
+    st.caption("Ml developer")
 
         
         
