@@ -19,10 +19,7 @@ with sb:
     sac.ButtonsItem(label='',icon='apple')
 ], label='', align='center')
     sac.rate(label='', value=3.5, align='center',half=True)
-    liquidfill_option = {
-    "series": [{"type": "liquidFill", "data": [0.8, 0.5, 0.4, 0.3]}]
-    }
-    st_echarts(liquidfill_option)
+
 
 
 
