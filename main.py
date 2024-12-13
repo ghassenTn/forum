@@ -79,7 +79,7 @@ option = {
 }
 st_echarts(option, height="500px", key="echarts")
 
-
+sac.divider(label='Stacked Horizontal Bar', icon='bar-chart', align='center', color='gray')
 options = {
     "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
     "legend": {
