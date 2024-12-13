@@ -1,6 +1,8 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import streamlit_antd_components as sac
+from streamlit_echarts import st_echarts
+
 def fake_plot():
     fig, ax = plt.subplots()
     ax.bar(['A', 'B', 'C', 'D'], [10, 20, 15, 25], color=['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728'])
@@ -146,11 +148,16 @@ with sb:
     sac.ButtonsItem(label='',icon='apple')
 ], label='', align='center')
     sac.rate(label='', value=3.5, align='center',half=True)
-    sac.alert(label='ghassenTn ', description=' Welcome  ', banner=True, icon=False, closable=True,size='md',variant='quote')
+    liquidfill_option = {
+    "series": [{"type": "liquidFill", "data": [0.8, 0.5, 0.4, 0.3]}]
+    }
+    st_echarts(liquidfill_option)
     
     
     
-    
+
+
+
 
 
     
